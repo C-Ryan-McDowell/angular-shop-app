@@ -1,2 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
 @import "primeng/resources/primeng.css";
+@import 'primeflex/primeflex.scss';
+@import "primeicons/primeicons.css";
+
+$lightBlue: lightblue;
+$lightBlueSecondary: rgb(200, 230, 240);
+$menuBarPadding:5px;
+$buttonPadding:5px;
+
+.lightBlue{
+    background-color: $lightBlue;
+}
+
+.lightBlueSecondary{
+    background-color: $lightBlueSecondary;
+}
+
+.searchBarPadding{
+    padding-top: $menuBarPadding;
+    padding-bottom: $menuBarPadding;
+    padding-left:20%;
+}
+
+.menuBarPadding{
+    padding-top: $menuBarPadding;
+    padding-bottom: $menuBarPadding;
+    padding-left:3%;
+}
+
+.buttonPadding{
+    padding-right: $buttonPadding;
+}

@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { TopMenuComponent } from './shared/top-menu/top-menu.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 export const routes: Routes = [
-    {path: 'header', component: TopMenuComponent}
+    {path: 'header', component: HeaderComponent}
 ];

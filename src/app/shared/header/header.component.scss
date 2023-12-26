@@ -1,0 +1,20 @@
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;  
+    font-size: larger;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+li a:hover {
+    font-weight: bold;
+}
