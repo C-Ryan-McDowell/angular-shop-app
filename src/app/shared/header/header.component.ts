@@ -4,11 +4,12 @@ import { LoginRegisterComponent } from '../login-register/login-register.compone
 import { MenuItem } from 'primeng/api';
 import {TabMenuModule} from 'primeng/tabmenu';
 import { ButtonModule } from 'primeng/button';
+import { MusicProductListComponent } from '../../feature/products/music-product-list/music-product-list.component';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [InputTextModule, LoginRegisterComponent, TabMenuModule, ButtonModule],
+  imports: [InputTextModule, LoginRegisterComponent, TabMenuModule, ButtonModule, MusicProductListComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
