@@ -12,7 +12,6 @@ export class MusicProductService {
   }
 
   public GetMusicProducts():Observable<any>{
-    console.log('ryan');
     return this.apiHttpService.get(this.constants.SHOP_APP_BASE_URL + this.constants.MUSIC_PRODUCTS_CONTROLLER);
   }
 

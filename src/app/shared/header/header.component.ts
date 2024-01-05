@@ -5,11 +5,13 @@ import { MenuItem } from 'primeng/api';
 import {TabMenuModule} from 'primeng/tabmenu';
 import { ButtonModule } from 'primeng/button';
 import { MusicProductListComponent } from '../../feature/products/music-product-list/music-product-list.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [InputTextModule, LoginRegisterComponent, TabMenuModule, ButtonModule, MusicProductListComponent],
+  imports: [InputTextModule, LoginRegisterComponent, TabMenuModule, ButtonModule, MusicProductListComponent
+  , FooterComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
