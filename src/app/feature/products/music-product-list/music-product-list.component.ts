@@ -26,7 +26,7 @@ export class MusicProductListComponent implements OnInit {
   getMusicProducts(){
     this.musicProductService.GetMusicProducts()
     .subscribe(data => {
-      this.products = data;
+      this.products = data.result;
     });
   }
 
